@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Anslagstavla</title>
+        <link rel="stylesheet" href="css/master.css">
+        <style media="screen">
+            input, textarea, label {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="formation" action="tavla.php" method="post">
+                <label for="titel">Titel:</label>
+                <input type="text" name="titel" id="titel"><br>
+
+                <label for="ansvarig">Ansvarig:</label>
+                <input type="text" name="ansvarig" id="ansvarig"><br>
+
+                <label for="organ">Organ:</label>
+                <input type="text" name="organ" id="organ"><br>
+
+                <label for="forvaringsplats">Förvaringsplats:</label>
+                <input type="text" name="forvaringsplats" id="forvaringsplats"><br>
+
+                <label for="stub">Stub:</label>
+                <input type="text" name="stub" id="stub"><br>
+
+                <label for="uppsattning">Publiceringsdatum:</label>
+                <input type="date" name="uppsattning" id="uppsattning"><br>
+
+                <label for="sammantrade">Sammanträdesdatum:</label>
+                <input type="date" name="sammantrade" id="sammantrade"><br>
+
+                <label for="dokument">Dokument:</label>
+                <input type="text" name="dokument" id="dokument"><br>
+
+            <input type="submit" name="publicera" value="Publicera">
+        </form>
+    </body>
+</html>
